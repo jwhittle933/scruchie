@@ -1,0 +1,12 @@
+{
+  "H3": {
+    "fontSize": {
+      "value": "12"
+    },
+    "Regular": {
+      "fontFamily": {
+        "value": "Monaco"
+      }
+    }
+  }
+}
