@@ -7,6 +7,7 @@
   :dependencies [[org.clojure/clojure "1.10.1"]
                  [org.clojure/tools.cli "1.0.206"]
                  [org.clojure/data.json "2.4.0"]
+                 [io.forward/yaml "1.0.10"]
                  [mvxcvi/puget "1.3.1"]]
   :main ^:skip-aot scrunchie.core
   :target-path "target/%s"

@@ -1,10 +1,10 @@
 {
-  "Button": {
+  "button": {
     "borderRadius": {
       "value": "4"
     },
-    "Action": {
-      "Primary": {
+    "action": {
+      "primary": {
         "backgroundColor": {
           "value": "blue"
         }

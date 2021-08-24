@@ -1,9 +1,9 @@
 {
-  "H3": {
+  "h3": {
     "fontSize": {
       "value": "12"
     },
-    "Regular": {
+    "regular": {
       "fontFamily": {
         "value": "Monaco"
       }

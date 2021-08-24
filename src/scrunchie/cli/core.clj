@@ -5,11 +5,10 @@
   (:gen-class))
 
 (defn validate [args errfn]
-  (let [{:keys [options arguments errors]} args]
+  (let [{:keys [errors]} args]
     (do
       (errfn errors)
-;      (into args [{:files (map #(fs/file->readjson %) arguments)} {:opts options}])
-      {:files arguments :opts options})))
+      args)))
 
 (defn exit-on-error [e]
   (when (not (nil? e)) (errors/fatal 1 e)))
